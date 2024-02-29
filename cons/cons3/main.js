@@ -38,7 +38,7 @@ function tagFn(text = 'default', count = 5, tagName = 'h3') {
 
 tagFn('text hello', 10, 'div');
 hrFn();
-tagFn('Mu name', 5, 'p');
+tagFn('My name', 5, 'p');
 hrFn('red', 3);
 tagFn('li', 15, 'li');
 hrFn('green', 5);
