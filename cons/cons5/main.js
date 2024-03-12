@@ -14,14 +14,14 @@ let cars = [
     {make: "BMW", model: "X3", year: 2012, color: "Ку", price: 30000},
 
 ];
-console.log(cars)
-
-let map = cars.map((car, index)=> ({...car, id:index+10}));
-let filter = map.filter(item=>item.price >= 25000 && item.id < 19)
-    .sort((a,b)=>b.year-a.year)
-    .filter(car=>car.color === 'Black')
-
-console.log(filter)
+// console.log(cars)
+//
+// let map = cars.map((car, index)=> ({...car, id:index+10}));
+// let filter = map.filter(item=>item.price >= 25000 && item.id < 19)
+//     .sort((a,b)=>b.year-a.year)
+//     .filter(car=>car.color === 'Black')
+//
+// console.log(filter)
 
 
 let products = [
@@ -253,5 +253,3 @@ let coursesArray = [
 // }finally {
 //     console.log('SERVER 404')
 // }
-
-
