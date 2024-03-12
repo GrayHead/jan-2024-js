@@ -197,3 +197,12 @@ let fruitArr = ['apple', 'banana', 'orange', 'apple', 'orange'];
 
 // let sum = numbers.reduce((acc, item) => acc + item, 0)
 // console.log(sum)
+
+
+
+
+
+
+
+
+

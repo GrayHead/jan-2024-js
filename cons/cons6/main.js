@@ -4,14 +4,14 @@ function CoffeeMachine(id, name, power) {
     this.id = id;
     this.name = name;
     this.power = power;
-    this.wather = 0;
+    this.water = 0;
     this.admin = 'Jason';
     this.milk = [];
 
 
     // this.info = function () {
     //     console.log('******')
-    //     // console.log(`Name: ${this.name}, Wather: ${this.wather}, Admin: ${this.admin}`)
+    //     // console.log(`Name: ${this.name}, Water: ${this.water}, Admin: ${this.admin}`)
     //     for (const key in this) {
     //         if (typeof this[key] === 'function') continue;
     //         console.log(key.toUpperCase() + ': ', this[key])
@@ -35,7 +35,7 @@ function CoffeeMachine(id, name, power) {
 
     this.addWather = function (adminName, valueWt) {
         if (adminName === 'Jason') {
-            this.wather += valueWt;
+            this.water += valueWt;
             console.log('Воду додано успішно!')
         } else {
             console.log('911 - ТИ не АДМІН!!')
@@ -44,9 +44,9 @@ function CoffeeMachine(id, name, power) {
 
     this.createCoffee = function () {
         if (this.power) {
-            if (this.wather > 200) {
-                this.wather -= 200;
-                console.log('Ваша кава готова!', 'Води залилось - ' + this.wather)
+            if (this.water > 200) {
+                this.water -= 200;
+                console.log('Ваша кава готова!', 'Води залилось - ' + this.water)
             } else {
                 console.log('Поповніть воду! Адмін ауу!')
             }
@@ -63,7 +63,7 @@ console.log(philips);
 
 CoffeeMachine.prototype.info = function () {
     console.log('******')
-    // console.log(`Name: ${this.name}, Wather: ${this.wather}, Admin: ${this.admin}`)
+    // console.log(`Name: ${this.name}, Water: ${this.water}, Admin: ${this.admin}`)
     for (const key in this) {
         if (typeof this[key] === 'function') continue;
         console.log(key.toUpperCase() + ': ', this[key])
