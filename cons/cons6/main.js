@@ -73,20 +73,20 @@ CoffeeMachine.prototype.info = function () {
 
 console.log(philips);
 philips.info()
-// philips.createCoffee();
-// philips.start();
-// philips.createCoffee();
-// philips.addWather('Jason', 1000);
-// philips.info();
-// philips.createCoffee();
-// philips.createCoffee();
-// philips.createCoffee();
-// philips.createCoffee();
-// philips.createCoffee();
-// philips.addMilk('kokos milk')
-// philips.addMilk('pumpkin milk')
-// philips.info();
-// philips.stop()
+philips.createCoffee();
+philips.start();
+philips.createCoffee();
+philips.addWather('Jason', 1000);
+philips.info();
+philips.createCoffee();
+philips.createCoffee();
+philips.createCoffee();
+philips.createCoffee();
+philips.createCoffee();
+philips.addMilk('kokos milk')
+philips.addMilk('pumpkin milk')
+philips.info();
+philips.stop()
 
 
 // let arr = [];
